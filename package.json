@@ -4,7 +4,8 @@
   "description": "Marked text parser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "jest --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/neolwc/parse-mark/issues"
   },
-  "homepage": "https://github.com/neolwc/parse-mark#readme"
+  "homepage": "https://github.com/neolwc/parse-mark#readme",
+  "devDependencies": {
+    "jest": "^18.0.0"
+  }
 }
