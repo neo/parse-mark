@@ -1,6 +1,6 @@
 {
   "name": "parse-mark",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Marked text parser",
   "main": "index.js",
   "scripts": {
